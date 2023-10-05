@@ -7,7 +7,7 @@ public class CambioMayusculas {
         try {
             System.out.println("¡¡¡¡Introduce una frase en minúsulas y la tranformare en mayúsculas por ti!!!!!");
             BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
-            String linea;
+            String linea = "";
 
             //Leer líneas de la entrada estándar y las convierte a mayúsculas.
             while ((linea = entrada.readLine()) != null ){

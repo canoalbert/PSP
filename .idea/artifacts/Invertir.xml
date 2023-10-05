@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Invertir">
+    <output-path>$PROJECT_DIR$/out/artifacts/Invertir</output-path>
+    <root id="archive" name="Invertir.jar">
+      <element id="module-output" name="PSP" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/Ejercicios/Ejercicio4/Invertir/Padre/Invertir/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

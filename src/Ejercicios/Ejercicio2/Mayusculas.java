@@ -6,7 +6,7 @@ public class Mayusculas {
     public static void main(String[] args) {
         try {
             //Creo un proceso hijo llamado CambioMayusculas.
-            ProcessBuilder builder = new ProcessBuilder("java", "-jar", "out/artifacts/PSP_jar/PSP.jar");
+            ProcessBuilder builder = new ProcessBuilder("java", "-jar", "out/artifacts/CambioMayusculas/CambioMayusculas.jar");
             builder.redirectErrorStream(true);
             Process procesoHijo = builder.start();
 
